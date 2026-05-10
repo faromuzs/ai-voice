@@ -1,0 +1,16 @@
+{
+  "name": "ai-voice",
+  "version": "1.0.0",
+  "description": "Fast Groq Orpheus TTS Proxy for Roblox",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5"
+  }
+}
